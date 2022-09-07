@@ -277,13 +277,13 @@ body {
   align-items: center;
 }
 
-@media (max-width: 640px) and (orientation: portrait) {
+@media (max-width: 640px) {
   .header__logo__link {
     justify-content: center;
   }
 }
 
-@media (max-width: 640px) and (orientation: portrait) {
+@media (max-width: 640px) {
   .menu {
     width: 100%;
     flex-direction: column-reverse;
@@ -354,7 +354,10 @@ body {
   }
 }
 
-@media (max-width: 640px) and (orientation: portrait) {
+@media (max-width: 640px)
+
+/*and /(orientation: portrait)*/
+  {
   .lines {
     display: block;
     align-self: flex-end;
@@ -372,7 +375,10 @@ body {
   }
 }
 
-@media (max-width: 640px) and (orientation:portrait) {
+@media (max-width: 640px)
+
+/*and (orientation:portrait) */
+  {
   .line {
     width: 23px;
     display: block;
@@ -400,7 +406,7 @@ body {
   }
 }
 
-@media (max-width: 640px) and (orientation: portrait) {
+@media (max-width: 640px) {
   .entry__title {
     margin: 0;
     padding: 42px 15px 0 15px;
@@ -515,6 +521,13 @@ body {
   }
 }
 
+@media (max-width: 640px) and (orientation: landscape) {
+  .trend {
+    width: calc(50% - 3px);
+    margin-bottom: 3px;
+  }
+}
+
 @media (max-width: 640px) and (orientation: portrait) {
   .trend {
     width: 100%;
@@ -626,7 +639,7 @@ body {
 }
 
 .trend__text:hover {
-color: #b59f5b;
+  color: #b59f5b;
 }
 
 .main__container {
@@ -640,7 +653,7 @@ color: #b59f5b;
   }
 }
 
-@media (max-width: 640px) and (orientation: portrait) {
+@media (max-width: 640px) {
   .main__container {
     flex-direction: column;
     padding: 0 18px;
@@ -907,7 +920,7 @@ color: #b59f5b;
   font-size: 14px;
 }
 
-.side__post__link  {
+.side__post__link {
   text-decoration: none;
   color: #000000;
   text-transform: uppercase;
@@ -929,6 +942,7 @@ color: #b59f5b;
 }
 
 @media (max-width:640px) {
+
   .search__box,
   .field {
     width: 100%;
