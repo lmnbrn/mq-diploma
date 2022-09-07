@@ -354,10 +354,7 @@ body {
   }
 }
 
-@media (max-width: 640px)
-
-/*and /(orientation: portrait)*/
-  {
+@media (max-width: 640px) {
   .lines {
     display: block;
     align-self: flex-end;
@@ -375,10 +372,7 @@ body {
   }
 }
 
-@media (max-width: 640px)
-
-/*and (orientation:portrait) */
-  {
+@media (max-width: 640px) {
   .line {
     width: 23px;
     display: block;
