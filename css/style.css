@@ -536,7 +536,7 @@ body {
 
 @media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
   .trend {
-    width: 25%;
+    width: calc(25% - 3px);
     min-height: 231px;
     padding: 20px;
     padding-bottom: 15px;
